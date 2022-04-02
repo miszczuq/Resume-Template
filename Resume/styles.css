@@ -1,0 +1,49 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 70.665vh;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.media-line{
+    display: flex;
+}
+
+.media-line > * {
+    padding: 3px;
+}
+
+.fa,
+.material-icons{
+    font-size: 20px;
+}
+
+.project .project-name{
+    font-weight: bold;
+}
