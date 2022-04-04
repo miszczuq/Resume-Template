@@ -11,6 +11,7 @@ body{
 .main-container{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     width: 70.665vh;
     height: 100vh;
     margin: auto;
@@ -19,17 +20,16 @@ body{
 }
 
 .header{
-    padding: 40px;
     text-align: center;
-    border-style: none none solid none;
-    border-color: #c0c6d0;
-    border-width: 1px;
 }
+
 
 .header h1{
     letter-spacing: 3px;
     font-size: 30px;
     text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .content h3{
@@ -40,6 +40,11 @@ body{
 
 .content{
     display: flex;
+    border-style: solid none solid none;
+    border-color: #c0c6d0;
+    border-width: 1px;
+    font-size: 11px
+
 }
 
 .left-content,
@@ -47,6 +52,15 @@ body{
     display: flex;
     flex-direction: column;
     padding: 20px;
+}
+
+.profile h3{
+    margin-top: 0;
+}
+
+.profile p{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .right-content{
@@ -57,15 +71,26 @@ body{
 
 .media,
 .education,
-.profile{
+.profile,
+.achievements,
+.projects,
+.languages{
     border-style: none none solid none;
     border-color: #c0c6d0;
     border-width: 1px;
 
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
+.interests ul{
+    margin-left: 20px;
+    padding: 0;
+}
 
+.interest{
+    margin-top: 10px;
+}
 
 .media-line{
     display: flex;
@@ -83,4 +108,17 @@ body{
 
 .project .project-name{
     font-weight: bold;
+}
+
+.education{
+    padding: 0;
+}
+
+.degree-title{
+    font-weight: bold;
+}
+
+.footer{
+    font-size: 10px;
+    text-align: center;
 }
