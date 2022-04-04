@@ -14,22 +14,58 @@ body{
     width: 70.665vh;
     height: 100vh;
     margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.header{
+    padding: 40px;
     text-align: center;
+    border-style: none none solid none;
+    border-color: #c0c6d0;
+    border-width: 1px;
+}
+
+.header h1{
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.content h3{
+    color: #626d7b;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .content{
     display: flex;
 }
 
-.left-content{
-    display: flex;
-    flex-direction: column;
-}
-
+.left-content,
 .right-content{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
+
+.right-content{
+    border-style: none none none solid;
+    border-color: #c0c6d0;
+    border-width: 1px;
+}
+
+.media,
+.education,
+.profile{
+    border-style: none none solid none;
+    border-color: #c0c6d0;
+    border-width: 1px;
+
+    padding-top: 5px;
+}
+
+
 
 .media-line{
     display: flex;
@@ -42,6 +78,7 @@ body{
 .fa,
 .material-icons{
     font-size: 20px;
+    color: #626d7b;
 }
 
 .project .project-name{
