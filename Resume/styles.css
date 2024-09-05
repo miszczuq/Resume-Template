@@ -19,6 +19,17 @@ body{
     text-justify: inter-word;
 }
 
+/* Przerwa strony przed sekcją ING Bank */
+.projects .project:nth-child(3) {
+    page-break-before: always;
+}
+
+/* Ukrycie elementów, które nie są potrzebne do druku */
+.header,
+.footer {
+    page-break-after: avoid;
+}
+
 .header{
     text-align: center;
 }
